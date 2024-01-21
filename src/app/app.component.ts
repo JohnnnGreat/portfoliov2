@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, RouterOutlet } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import AOS from 'aos';
-import { MenuStateService } from 'c:/Users/John/portfoliov2/src/app/menu-state.service';
+import { MenuStateService } from './menu-state.service';
 @Component({
   selector: 'app-root',
   standalone: true,
