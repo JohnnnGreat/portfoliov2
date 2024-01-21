@@ -107,7 +107,7 @@
       .techstack-details {
         grid-template-columns: 1fr;
         .techstack-card {
-          width: 100%;
+          width: 100% !important;
 
           .card-title {
             font-size: 30px !important;
