@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Inject, OnInit, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, RouterOutlet } from '@angular/router';
 import { HomeComponent } from './home/home.component';
@@ -12,7 +12,9 @@ import { MenuStateService } from './menu-state.service';
   styleUrl: './app.component.scss',
 })
 export class AppComponent implements OnInit {
-  constructor(public menuStateService: MenuStateService) {}
+  constructor(
+    @Inject(MenuStateService) public menuStateService: MenuStateService
+  ) {}
   ngOnInit() {
     AOS.init({
       duration: 1000, // Animation duration in milliseconds
