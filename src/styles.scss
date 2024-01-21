@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-
+@import "aos/dist/aos.css";
 // Global Styles
 
 $bg_clr: #0b2447;
@@ -49,4 +49,5 @@ body {
 
 a {
   text-decoration: none;
+  font-family: "Gilroy", sans-serif;
 }
