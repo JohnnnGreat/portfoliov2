@@ -41,7 +41,7 @@
           rgba(165, 215, 232, 0.12) 3.77%,
           rgba(165, 215, 232, 0) 98.57%
         );
-        padding: 1rem;
+        padding: 2rem;
         width: 349px;
         height: 348px;
         flex-shrink: 0;
@@ -50,7 +50,6 @@
         align-items: center;
         justify-content: center;
         div {
-          background: red;
           height: 90%;
         }
         .services-icon {
@@ -81,6 +80,21 @@
           margin-top: 1rem;
           display: flex;
           align-items: center;
+          position: relative;
+          z-index: 10;
+          gap: 0.5rem;
+          p {
+            color: #576cbc;
+
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 200;
+            line-height: normal;
+          }
+
+          img {
+            width: 20px;
+          }
         }
       }
     }
@@ -98,6 +112,7 @@
 
         .services-header__desc {
           width: 100%;
+          margin-top: 1rem;
         }
       }
 

@@ -1,0 +1,116 @@
+.techstack {
+  padding: 5rem 1rem;
+  overflow: hidden;
+  position: relative;
+  &__wrapper {
+    max-width: 1100px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    .techstack-header {
+      .techstack-header__main {
+        color: #fff;
+        text-align: center;
+
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      .techstack-header__desc {
+        color: #a5d7e8;
+        text-align: center;
+
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        width: 571px;
+        margin: auto;
+      }
+    }
+    .techstack-details {
+      margin-top: 3rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      .techstack-card {
+        width: 529px;
+        height: 299px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        border: 1px solid #576cbc;
+        background: linear-gradient(
+          107deg,
+          rgba(165, 215, 232, 0.17) 0.99%,
+          rgba(255, 255, 255, 0) 98.56%
+        );
+        padding: 2rem;
+
+        &:nth-child(2) {
+          border-radius: 20px;
+          border: 1px solid #576cbc;
+          background: linear-gradient(
+            253deg,
+            rgba(165, 215, 232, 0.21) 4.61%,
+            rgba(165, 215, 232, 0) 97.47%
+          );
+        }
+        .card-title {
+          color: #fff;
+          font-size: 36px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+
+        .card-info {
+          margin-top: 1.4rem;
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 1.5rem;
+          .card-info__details {
+            h1 {
+              color: #a5d7e8;
+              font-family: Gilroy;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 100;
+              line-height: normal;
+            }
+
+            p {
+              color: #a5d7e8;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+              margin-top: 0.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.circle-blur {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .circle {
+    width: 835px;
+    height: 788px;
+    flex-shrink: 0;
+    border-radius: 835px;
+    background: rgba(87, 108, 188, 0.28);
+    filter: blur(200px);
+  }
+}

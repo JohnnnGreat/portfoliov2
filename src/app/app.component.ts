@@ -16,7 +16,7 @@ import AOS from 'aos';
 export class AppComponent implements OnInit {
   ngOnInit() {
     AOS.init({
-      duration: 800, // Animation duration in milliseconds
+      duration: 1000, // Animation duration in milliseconds
       easing: 'ease-in-out', // Animation easing function
       // Only run the animation once
     });
