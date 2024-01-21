@@ -93,6 +93,39 @@
       }
     }
   }
+
+  @media (max-width: 567px) {
+    &__wrapper {
+      .techstack-header__main {
+        font-size: 35px;
+      }
+
+      .techstack-header__desc {
+        width: 100% !important;
+      }
+
+      .techstack-details {
+        grid-template-columns: 1fr;
+        .techstack-card {
+          width: 100%;
+
+          .card-title {
+            font-size: 30px !important;
+          }
+
+          .card-info {
+            h1 {
+              font-size: 18px !important;
+            }
+
+            p {
+              font-size: 14px !important;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 .circle-blur {
