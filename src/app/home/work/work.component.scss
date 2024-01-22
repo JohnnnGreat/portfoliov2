@@ -39,7 +39,7 @@
       .work-card {
         border-radius: 20px;
         background: #19376d;
-        padding: 1rem;
+        padding: 1.5rem;
         display: flex;
         gap: 1rem;
         margin-top: 1rem;
@@ -93,6 +93,7 @@
               padding: 0.5rem 1rem;
               font-weight: 200;
               font-size: 13px;
+              border-radius: 5px;
             }
           }
           h1 {
@@ -103,7 +104,14 @@
             font-weight: 800;
             line-height: normal;
           }
-
+          p {
+            color: #a5d7e8;
+            font-weight: 200;
+            font-size: 14px;
+            margin: 0.4rem 0;
+            line-height: 2;
+            max-width: 400px;
+          }
           a {
             border-radius: 50px;
             border: 1px solid #a5d7e8;
@@ -112,6 +120,7 @@
             color: #fff;
             font-weight: 200;
             margin-top: 0.7rem;
+            text-align: center;
           }
         }
       }

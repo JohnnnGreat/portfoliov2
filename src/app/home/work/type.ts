@@ -3,4 +3,5 @@ export type work = {
   path: string;
   image?: string;
   subject: string[];
+  desc?: string;
 };

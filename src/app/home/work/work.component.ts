@@ -17,6 +17,7 @@ export class WorkComponent {
       path: '/food-green',
       image: '../../../assets/ImageOne.png',
       subject: ['UI Design', 'Mobile'],
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisisint dolor fugiat consequatur, amet ut aperiam mollitia nequrepellendus.',
       // image: require('../../../assets/imageOne.png'),
     },
     {
@@ -24,12 +25,14 @@ export class WorkComponent {
       path: '/food-green',
       image: '../../../assets/fitvibe.png',
       subject: ['UI Design', 'Web'],
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisisint dolor fugiat consequatur, amet ut aperiam mollitia nequrepellendus.',
     },
     {
       title: 'Veronicas Kitchen',
       path: '/veronicas-kitchen',
       image: '../../../assets/Vero.jpg',
       subject: ['UI Design', 'Web'],
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisisint dolor fugiat consequatur, amet ut aperiam mollitia nequrepellendus.',
     },
 
     {
@@ -37,6 +40,7 @@ export class WorkComponent {
       path: '/midwest',
       image: '../../../assets/Midwest.jpg',
       subject: ['UI Design', 'Coding'],
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisisint dolor fugiat consequatur, amet ut aperiam mollitia nequrepellendus.',
     },
 
     {
@@ -44,6 +48,7 @@ export class WorkComponent {
       path: '/portfoliojohn',
       image: '../../../assets/PortfolioJohn.png',
       subject: ['UI Design', 'Coding'],
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisisint dolor fugiat consequatur, amet ut aperiam mollitia nequrepellendus.',
     },
   ];
 }

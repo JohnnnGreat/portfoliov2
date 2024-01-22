@@ -61,11 +61,15 @@ $text_clr: #a5d7e8;
       }
 
       .intro-link {
-        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         margin-top: 1rem;
+
+        img {
+          width: 20px;
+          animation: moveRight 3s infinite;
+        }
       }
 
       a {
@@ -80,7 +84,10 @@ $text_clr: #a5d7e8;
         background: #fff;
         padding: 0.7rem 2rem;
         border-radius: 20px;
-        display: inline-block;
+        display: inline-flex;
+
+        img {
+        }
 
         &:hover {
           color: #a5d7e8;
@@ -88,7 +95,7 @@ $text_clr: #a5d7e8;
         }
       }
 
-      p {
+      .intro-desc {
         color: $text_clr;
 
         text-align: center;
