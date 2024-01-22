@@ -19,7 +19,13 @@
                 <div class="card-content">
                     <div>
                         <h1>{{workItem.title}}</h1>
-                        <a [href]='workItem.path'>View Project</a>
+                        <!-- <a [routerLink]="[`/${workItem.path}, ${workItem.title}`]">View Project</a> -->
+                        <a [routerLink]="['/', 'projects', workItem.title]">View Project</a>
+                        <ul class="sub">
+                            <li *ngFor="let item of workItem.subject">
+                                {{item}}
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>

@@ -10,7 +10,6 @@
     .work-header {
       .work-header__main {
         color: #fff;
-        text-align: center;
 
         font-size: 40px;
         font-style: normal;
@@ -20,14 +19,12 @@
 
       .work-header__desc {
         color: #a5d7e8;
-        text-align: center;
 
         font-size: 16px;
         font-style: normal;
         font-weight: 300;
         line-height: normal;
         width: 571px;
-        margin: auto;
       }
     }
 
@@ -70,7 +67,6 @@
           }
           img {
             width: 700px;
-            height: 600px;
           }
         }
 
@@ -79,6 +75,20 @@
           align-items: center;
           justify-content: center;
 
+          .sub {
+            display: flex;
+            list-style: none;
+            gap: 1rem;
+            margin-top: 1rem;
+
+            li {
+              background-color: #264888;
+              color: #a5d7e8;
+              padding: 0.5rem 1rem;
+              font-weight: 200;
+              font-size: 13px;
+            }
+          }
           h1 {
             color: #fff;
 
@@ -92,10 +102,28 @@
             border-radius: 50px;
             border: 1px solid #a5d7e8;
             display: inline-block;
-            padding: 1rem 3rem;
+            padding: 0.8rem 2rem;
             color: #fff;
             font-weight: 200;
             margin-top: 0.7rem;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 567px) {
+    .work-display {
+      .work-card {
+        flex-direction: column !important;
+
+        .card-content {
+          div {
+            width: 100% !important;
+          }
+          justify-content: flex-start;
+          a {
+            width: 100% !important;
           }
         }
       }
