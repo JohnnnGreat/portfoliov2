@@ -4,6 +4,7 @@ import { Title, Meta } from '@angular/platform-browser';
 import { ServicesComponent } from './services/services.component';
 import { TechstackComponent } from './techstack/techstack.component';
 import { AboutComponent } from './about/about.component';
+import { WorkComponent } from './work/work.component';
 
 @Component({
   selector: 'app-home',
@@ -13,6 +14,7 @@ import { AboutComponent } from './about/about.component';
     ServicesComponent,
     TechstackComponent,
     AboutComponent,
+    WorkComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',

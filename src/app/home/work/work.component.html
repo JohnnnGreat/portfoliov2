@@ -1,0 +1,28 @@
+<div class="work">
+    <div class="work__wrapper">
+        <div class="work-header">
+            <h1 class="work-header__main" data-aos="fade-up">Featured Projects</h1>
+            <p class="work-header__desc" data-aos="fade-up">Explore a selection of my standout projects that showcase my
+                skills, creativity, and problem-solving abilities. Each project reflects my commitment to delivering
+                high-quality solutions and pushing the boundaries of what's possible in the digital realm.
+            </p>
+
+        </div>
+        <div class="work-display">
+            <div class="work-card" *ngFor="let workItem of work">
+                <div class="card-image">
+                    <div class="card-overlay">
+                        <h1>{{workItem.title}}</h1>
+                    </div>
+                    <img [src]="workItem.image" alt="">
+                </div>
+                <div class="card-content">
+                    <div>
+                        <h1>{{workItem.title}}</h1>
+                        <a [href]='workItem.path'>View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
