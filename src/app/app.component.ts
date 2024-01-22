@@ -4,6 +4,8 @@ import { RouterModule, RouterOutlet } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import AOS from 'aos';
 import { MenuStateService } from './menu-state.service';
+import { LoadingComponent } from './home/loading/loading.component';
+
 @Component({
   selector: 'app-root',
   standalone: true,
