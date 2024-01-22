@@ -25,6 +25,11 @@
         font-weight: 300;
         line-height: normal;
         width: 571px;
+
+        @media (max-width: 567px) {
+          font-size: 13px !important;
+          width: 100% !important;
+        }
       }
     }
 
@@ -61,8 +66,9 @@
             align-items: center;
             padding: 2rem;
             h1 {
-              color: #fff;
-              font-size: 30px;
+              color: #a5d7e8;
+              font-size: 24px;
+              font-weight: 300;
             }
           }
           img {
@@ -92,7 +98,7 @@
           h1 {
             color: #fff;
 
-            font-size: 36px;
+            font-size: 30px;
             font-style: normal;
             font-weight: 800;
             line-height: normal;
@@ -114,6 +120,9 @@
 
   @media (max-width: 567px) {
     .work-display {
+      img {
+        width: 100% !important;
+      }
       .work-card {
         flex-direction: column !important;
 

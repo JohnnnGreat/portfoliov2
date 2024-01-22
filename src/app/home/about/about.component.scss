@@ -30,11 +30,17 @@
       p {
         color: #a5d7e8;
 
-        font-size: 15px;
+        font-size: 16px;
         font-style: normal;
-        font-weight: 200;
-        line-height: 30px;
-        margin-top: 0.7rem; /* 187.5% */
+        font-weight: 300;
+        line-height: normal;
+        width: 571px;
+        text-align: justify;
+        line-height: 2;
+        @media (max-width: 567px) {
+          font-size: 13px !important;
+          width: 100% !important;
+        } /* 187.5% */
       }
 
       .about-content {

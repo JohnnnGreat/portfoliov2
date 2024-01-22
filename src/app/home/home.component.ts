@@ -5,6 +5,7 @@ import { ServicesComponent } from './services/services.component';
 import { TechstackComponent } from './techstack/techstack.component';
 import { AboutComponent } from './about/about.component';
 import { WorkComponent } from './work/work.component';
+import { ClientsComponent } from './clients/clients.component';
 
 @Component({
   selector: 'app-home',
@@ -15,6 +16,7 @@ import { WorkComponent } from './work/work.component';
     TechstackComponent,
     AboutComponent,
     WorkComponent,
+    ClientsComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
