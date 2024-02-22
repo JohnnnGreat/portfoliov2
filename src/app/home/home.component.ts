@@ -10,6 +10,7 @@ import { ClientsComponent } from './clients/clients.component';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { CommonModule } from '@angular/common';
 import { LoadingComponent } from './loading/loading.component';
+import { ParticlesComponent } from './particles/particles.component';
 // import { LoadingSpinnerComponent } from './loading-spinner/loading-spinner.component';
 
 @Component({

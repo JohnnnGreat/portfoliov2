@@ -24,7 +24,7 @@ $text_clr: #a5d7e8;
     justify-content: center;
     position: relative;
     z-index: 2;
-    img {
+    .net {
       position: absolute;
       top: 0;
       left: 0;
@@ -65,10 +65,11 @@ $text_clr: #a5d7e8;
         align-items: center;
         justify-content: center;
         margin-top: 1rem;
-
+        gap: 0.5rem;
         img {
           width: 20px;
           animation: moveRight 3s infinite;
+          transform: rotate(-45deg);
         }
       }
 
@@ -178,6 +179,17 @@ $text_clr: #a5d7e8;
       height: 20px;
       background: #ffffffa1;
       border-radius: 20px;
+      animation: moveUp 3s infinite ease;
+
+      @keyframes moveUp {
+        0% {
+          transform: translateY(0);
+        }
+
+        50% {
+          transform: translateY(10px);
+        }
+      }
     }
   }
 }
